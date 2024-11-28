@@ -9,12 +9,12 @@ export default function NavBar(){
                 <p className = "self-center text-3xl font-bold">Grocery</p>
                 </a>
             </div>
-            <input className = "border border-solid border-black rounded-xl px-2 py-1 text-xl w-2/4   "  type="text" placeholder = "Search for Products" />
+            <input className = "border border-solid border-black rounded-xl px-2 py-1 text-xl w-2/4"  type="text" placeholder = "Search for Products" />
             <ul className = "hidden md:flex gap-4 text-xl px-2">
-                <li className = "hover:bg-yellow-200 rounded-xl px-2 py-1 cursor-pointer"><a href="#">Home</a></li>
-                <li className = "hover:bg-yellow-200 rounded-xl px-2 py-1 cursor-pointer"><a href="#">Services</a></li>
-                <li className = "hover:bg-yellow-200 rounded-xl px-2 py-1 cursor-pointer"><a href="#">Categories</a></li>
-                <li className = "hover:bg-yellow-200 rounded-xl px-2 py-1 cursor-pointer"><a href="#">Cart</a></li>
+                <li className = "hover:bg-green-400 border border-[#A8CD89] hover:border hover:border-green-600 rounded px-2 py-1 cursor-pointer"><a href="#">Home</a></li>
+                <li className = "hover:bg-green-400 border border-[#A8CD89] hover:border hover:border-green-600 rounded px-2 py-1 cursor-pointer"><a href="#">Services</a></li>
+                <li className = "hover:bg-green-400 border border-[#A8CD89] hover:border hover:border-green-600 rounded px-2 py-1 cursor-pointer"><a href="#">Categories</a></li>
+                <li className = "hover:bg-green-400 border border-[#A8CD89] hover:border hover:border-green-600 rounded px-2 py-1 cursor-pointer"><a href="#">Cart</a></li>
             </ul>
         </nav>
     )
