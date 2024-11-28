@@ -14,7 +14,7 @@ export default function FeaturedProducts(){
                     arrows
                     autoPlaySpeed={3000}
                     centerMode={false}
-                    className=""
+                    className = "border"
                     containerClass="container-with-dots"
                     dotListClass=""
                     draggable

@@ -1,6 +1,7 @@
 import NavBar from "./components/navbar"
 import HeroSection from "./components/heroSection/HeroSection"
 import FeaturedProducts from "./components/featuredSection/FeaturedProducts"
+import Categories from "./components/categorySection/Categories"
 
 
 export default function App(){
@@ -11,6 +12,7 @@ export default function App(){
         <HeroSection/>
       </div>
       <FeaturedProducts/>
+      <Categories/>
     </div>
   )
 }
